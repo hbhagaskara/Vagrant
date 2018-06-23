@@ -5,7 +5,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 cluster = {
   "vm1" => { :eth0 => "192.168.99.220", :cpus => 1, :mem => 1024 },
-  "vm2" => { :eth0 => "192.168.99.221", , :cpus => 1, :mem => 1024 },
+  "vm2" => { :eth0 => "192.168.99.221", :cpus => 1, :mem => 1024 },
 }
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
